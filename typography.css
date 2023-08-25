@@ -1,0 +1,50 @@
+.styleNameh2{
+    font-family: Atkinson Hyperlegible;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.styleNameH5{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.styleNameH4{
+font-family: Atkinson Hyperlegible;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.styleNameH3{
+    font-family: Atkinson Hyperlegible;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.styleNameparagraph{
+    font-family: Atkinson Hyperlegible;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.styleNameH1{
+font-family: Atkinson Hyperlegible;
+font-size: 65px;
+font-weight: 700;
+line-height: 81px;
+letter-spacing: 0em;
+text-align: left;
+}
