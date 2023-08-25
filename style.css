@@ -3,21 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: Atkinson Hyperlegible;
-  src: url(./assets/fonts/AtkinsonHyperlegible-Regular.ttf);
-}
-@font-face {
-  font-family: Poppins;
-  src: url(./assets/fonts/Poppins-Regular.ttf);
-}
-:root {
-  --bluedark: #243553;
-  --yellowdark: #eda900;
-  --lightblue: #62728d;
-  --interblue: #3a4c6c;
-  --black: #000000;
-}
+
 ul {
   list-style: none;
 }
@@ -86,7 +72,14 @@ header button {
 header button:hover{
   background-color: #EDA900;
 }
-
+.navigate{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger{
+  display: none;
+}
 /* hero styling */
 
 .hero {
@@ -323,5 +316,9 @@ footer ul li {
   }
   .navigate{
     display: none !important;
+  }
+  .hamburger{
+    display: block;
+    margin-left: 25px;
   }
 }

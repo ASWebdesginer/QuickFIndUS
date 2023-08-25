@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Atkinson Hyperlegible;
+    src: url(./assets/fonts/AtkinsonHyperlegible-Regular.ttf);
+  }
+  @font-face {
+    font-family: Poppins;
+    src: url(./assets/fonts/Poppins-Regular.ttf);
+  }
+  :root {
+    --bluedark: #243553;
+    --yellowdark: #eda900;
+    --lightblue: #62728d;
+    --interblue: #3a4c6c;
+    --black: #000000;
+  }
 .styleNameh2{
     font-family: Atkinson Hyperlegible;
     font-size: 40px;
