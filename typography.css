@@ -69,3 +69,26 @@ letter-spacing: 0em;
 text-align: left;
 color: var(--bluedark);
 }
+
+@media(max-width:850px){
+    .styleNameh2{
+        font-size: 30px;
+    }
+    .styleNameH5{
+        font-size: 20px;
+    }
+    .styleNameH4{
+    font-size: 20px;
+    }
+    .styleNameH3{
+        font-size: 24px;
+    }
+    
+    .styleNameparagraph{
+        font-size: 18px;
+    }
+    
+    .styleNameH1{
+    font-size:45px;
+    } 
+}
