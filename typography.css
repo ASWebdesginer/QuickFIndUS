@@ -9,6 +9,9 @@
   :root {
     --bluedark: #243553;
     --yellowdark: #eda900;
+    --yellowlightest: #FFDC84;
+    --yellowlighter: #FFCD51;
+    --yellowlight: #FFC432;
     --lightblue: #62728d;
     --interblue: #3a4c6c;
     --black: #000000;
@@ -70,7 +73,7 @@ text-align: left;
 color: var(--bluedark);
 }
 
-@media(max-width:850px){
+@media(max-width:850px) and (min-width:700px){
     .styleNameh2{
         font-size: 30px;
     }
