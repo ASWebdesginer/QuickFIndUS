@@ -770,6 +770,12 @@ ol li::before {
   display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+#arrowheadingfooter{
+  position: absolute;
+  bottom: -75%;
+  right: 0px;;
 }
 .maincontainer{
   padding: 0px !important;
@@ -784,11 +790,15 @@ ol li::before {
 .bfooterimg{
   position: absolute;
   bottom: -170px;
+  z-index: 99;
 }
 .bfootermobile{
   display: none;;
 }
 @media(max-width:1000px) and (min-width:600px){
+  #arrowheadingfooter{
+    display: none;
+  }
   .bgimagsect{
     background-image: url('./assets/Vector (14).png');
     background-repeat: no-repeat;
