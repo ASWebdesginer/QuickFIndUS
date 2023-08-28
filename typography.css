@@ -98,3 +98,6 @@ color: var(--bluedark);
 button:hover,.formsect input[type="submit"]:hover{
     opacity: 0.9;
 }
+a:active {
+    text-decoration: underline;
+  }

@@ -337,7 +337,7 @@ footer ul {
   margin-bottom: 0px;
   border-bottom: 1px solid var(--bluedark);
 }
-footer ul li {
+footer ul li a {
   font-family: Atkinson Hyperlegible;
   font-size: 20px;
   font-weight: 400;
@@ -346,6 +346,10 @@ footer ul li {
   text-align: left;
   color: var(--bluedark);
   list-style: none;
+  text-decoration: none;
+}
+footer ul li a:hover{
+  color: var(--yellowdark);
 }
 .ftextcontent {
   padding-top: 30px;
@@ -693,4 +697,144 @@ margin-bottom: 20px;
   text-align: left;
   color: var(--yellowdark);
   text-decoration: none;
+}
+ol {
+  list-style: none;
+  counter-reset: num;
+  margin: 0px;
+  padding: 0px !important;
+}
+
+ol li {
+  counter-increment: num;
+  padding-left: 45px;
+  position: relative;
+  
+}
+
+ol li::before {
+  content: counter(num) ". ";
+  font-family: Atkinson Hyperlegible;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: var(--bluedark);
+  text-decoration: none;
+  position: absolute;
+  left: 0px;
+  left: 0px;
+  width: 30px;
+  text-align: right;
+}
+.tableofcontent a{
+  font-family: Atkinson Hyperlegible;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: var(--yellowdark);
+}
+.tableofcontent a:hover{
+  opacity: 0.9;
+  color: var(--yellowdark);
+}
+.tableofcontent ul li{
+  list-style: disc;
+  font-family: Atkinson Hyperlegible;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: var(--bluedark);
+}
+.persnalforpolicy{
+  background-image: url('./assets/Group\ 2324.png') !important;
+  
+}
+.persnalforpolicy .plcontent  h4{
+  opacity: 0;;
+}
+.bgimagsect{
+  background-image: url('./assets/Vector\ \(13\).png');
+  background-repeat: no-repeat;
+  background-position: 85% 100%;
+  min-height: 268px;
+  position: relative;
+}
+.formsectionfo{
+  background-color: var(--bluedark);
+  padding: 0px !important;
+  margin: 0 !important;
+  height:170px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainer{
+  padding: 0px !important;
+  margin: 0 !important;
+}
+.formsectionfo .formcol{
+ margin-left: auto;
+}
+.formsectionfo .formsect {
+  margin-top: 0px;
+}
+.bfooterimg{
+  position: absolute;
+  bottom: -170px;
+}
+.bfootermobile{
+  display: none;;
+}
+@media(max-width:1000px) and (min-width:600px){
+  .bgimagsect{
+    background-image: url('./assets/Vector (14).png');
+    background-repeat: no-repeat;
+    background-position: 15% 100%;
+    min-height: 268px;
+    position: relative;
+  }
+  .btnwraps{
+    margin-left: auto;
+  }
+  .bfooterimg{
+    width: 30%;
+  }
+}
+@media(max-width:600px){
+  .bfootermobile{
+    display: block;;
+  }
+  .bfooterimg{
+    display:  none;
+  }
+  .bgimagsect{
+    background-image: none;
+  }
+  #beforefootersect .container-fluid ,#beforefootersect .col-12,#beforefootersect .row{
+    padding: 0px;
+  }
+  .btnwraps{
+    max-width: 100%;
+  }
+}
+.termandcondition p{
+  font-family: Atkinson Hyperlegible;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--bluedark);
+}
+.termandcondition a{
+  font-family: Atkinson Hyperlegible;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--yellowdark);
 }
