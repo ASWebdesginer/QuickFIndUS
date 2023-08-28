@@ -317,7 +317,7 @@ footer ul li {
 }
 
 /* media queries */
-@media (max-width: 1000px) and (min-width: 768px) {
+@media (max-width: 1000px) and (min-width: 600px) {
   .hero {
     background-image: url("./assets/Group\ 2320.png");
     background-size: 100%;
@@ -357,9 +357,17 @@ footer ul li {
   .pmaxis {
     margin: 0px 30px;
   }
+  footer .row{
+    margin: 0 !important;
+  }
+  footer ul li{
+    font-size: 16px;
+    margin-bottom: 0px !important;
+  }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .herocontent {
     width: 100%;
   }
@@ -430,6 +438,12 @@ footer ul li {
   .countfeatures .content p {
     width: 100%;
   }
+  #countfeaturesworks{
+    margin-top: 50px !important;
+  }
+  #countfeaturesworks .styleNameH1{
+    font-size: 40px;
+  }
   .trustedimg {
     display: none;
   }
@@ -463,6 +477,44 @@ footer ul li {
     color: white;
     margin-bottom: 0px;
     max-width: 60%;
+  }
+  .bottomimg {
+    display: none !important;
+  }
+  #showonmobile{
+    display: block !important;
+  }
+  #hideonmobile{
+    display: none !important;
+  }
+  .bulletspoints{
+    margin-top: 50px !important;
+  }
+  #persolloadnworks{
+    background-image: none;
+  }
+  #persolloadnworks .btnwraps {
+    background-color: var(--bluedark);
+    max-width: 100%;
+  }
+  #persolloadnworks .row .col-12, #persolloadnworks .row{
+    padding: 0 !important;
+  }
+  #persolloadnworks .formsect form{
+    flex-direction: column !important;
+  }
+  #persolloadnworks .formsect{
+    margin-top: 0px !important;
+    padding: 30px 0px;
+  }
+  .independenttext .styleNameH3{
+    font-size: 24px;
+  }
+  #persolloadnworks .styleNameparagraph{
+    padding: 0px 20px;
+  }
+  #countfeaturesworks{
+    padding: 0 25px !important;
   }
 }
 
@@ -514,7 +566,12 @@ letter-spacing: 0em;
 text-align: left;
 margin-bottom: 20px;
 }
-
+.deskotoponly{
+  display: block;
+}
+.nodesktop{
+  display: none;
+}
 .iconlists .icons{
   width: 6%; 
 }
@@ -534,10 +591,33 @@ margin-bottom: 20px;
 #absolitework{
   position: absolute;
   right: 0px;
-  bottom: -23%;
-  
+  bottom: -23%; 
 }
 
 #workspersonal .btnwraps {
   max-width: 90%;
+}
+@media(max-width:1000px){
+  .deskotoponly{
+    display: none;
+  }
+  .nodesktop{
+    display: block;
+  }
+  #persolloadnworks .row{
+    margin: 0  !important;
+
+  }
+  #persolloadnworks .formsect form{
+    flex-direction: row;
+  }
+  #persolloadnworks .formsect {
+    margin-top: 65px;
+  }
+  #absolitework{
+    display: none;
+  }
+  .independenttext{
+    margin: 50px 0 !important;
+  }
 }
