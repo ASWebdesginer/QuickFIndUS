@@ -682,3 +682,15 @@ margin-bottom: 20px;
     margin: 50px 0 !important;
   }
 }
+
+/* privacy policy page styles */
+.col-12.tableofcontent ol li a {
+  font-family: Atkinson Hyperlegible;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--yellowdark);
+  text-decoration: none;
+}
