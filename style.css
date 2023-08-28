@@ -11,16 +11,75 @@ ul {
 header ul {
   margin-bottom: 0px;
 }
-.responsivemenu {
+.mobilemneu{
+  background-color: white;;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  top: 0;
+  left:0;
   display: none;
 }
-header ul li {
+.mobilemneu .iconbox{
+  display: flex !important;
+  background-color: var(--bluedark);
+  color: white;
+  max-width: 250px;
+  border-radius: 45px;
+  height: 75px;
+  margin: 0px auto 20px auto;
+}
+.mobilemneu .iconbox:hover .icon.mx-1{
+  background-color: white;
+}
+.mobilemneu .iconbox:hover .blackimg{
+  display: block;
+}
+.mobilemneu .iconbox .icon.mx-1{
+  background-color: white;
+}
+.mobilemneu .iconbox .icon_content p,.mobilemneu .iconbox .icon_content h6{
+  color: white;
+}
+.mobilemneu ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0px;
+  gap: 20px;
+  margin-top: 20px !important;
+}
+.mobilemneu ul li,.mobilemneu ul li a{
+font-family: Atkinson Hyperlegible;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+text-decoration: none;
+color: var(--bluedark);
+}
+.mobilemneu ul li a:hover{
+  text-decoration: underline;
+}
+.closebtn h6 {
+  font-size: 36px;
+  text-align: right;
+  padding: 25px 20px 20px 20px;
+  cursor: pointer;
+}
+header ul li a{
   color: var(--bluedark);
   font-family: "Atkinson Hyperlegible";
   font-size: 16px;
   font-weight: 400;
   line-height: 19.8px;
   text-transform: capitalize;
+  text-decoration: none;
+}
+header ul li a:hover{
+  color:var(--yellowdark);
 }
 .icon_content h6 {
   color: var(--black);
@@ -82,6 +141,7 @@ header button:hover {
 }
 .hamburger {
   display: none;
+  cursor: pointer;
 }
 /* hero styling */
 .mbimg {
@@ -228,6 +288,7 @@ header button:hover {
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 .personalloan h2 {
   margin-top: 50px;
@@ -403,7 +464,7 @@ footer ul li {
   }
   .navigate,
   .iconbox {
-    display: none !important;
+    display: none;
   }
   .hamburger {
     display: block;
