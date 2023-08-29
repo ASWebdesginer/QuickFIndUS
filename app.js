@@ -14,7 +14,7 @@ jQuery(document).ready(function($){
   // Step 1: Next button click event
   $(".btnforme").click(function() {
     $(this).siblings("#amount").hide();
-    $(this).siblings("#email").show();
+    $(this).siblings("#diemail").show();
     $(this).siblings("#submitbtn").show();
     $(this).hide();
   });
@@ -23,7 +23,7 @@ jQuery(document).ready(function($){
 //   // Step 2: Submit button click event
 //   $("#submitForm").click(function() {
 //     var selectedOption = $("#selectField").val();
-//     var emailAddress = $("#emailField").val();
+//     var emailAddress = $("#diemailField").val();
     
 //     // Perform form validation or data processing here
     

@@ -188,7 +188,7 @@ header button:hover {
 .hero .formsect .btnforme {
   background-color: var(--bluedark) !important;
 }
-.hero #email{
+.hero #diemail{
   width: 420px;
 }
 .formsect input[type="submit"] {
@@ -868,7 +868,7 @@ ol li::before {
 .secondstep{
   display: none;
 }
-#email{
+#diemail{
   display: none;
   width: 484px;
 height: 56px;
