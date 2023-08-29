@@ -31,9 +31,9 @@
           <div class="col-lg-5 navigate">
             <ul class="d-flex">
               <li class="px-3"><a href="/Howitworks.html"> how it works </a></li>
-              <li class="px-3"><a href="#">  FAQ  </a></li>
+              <li class="px-3"><a href="./FAQs.html">  FAQ  </a></li>
               <li class="px-3"><a href="/privacypolicy.html">  Your Privacy Rights  </a></li>
-              <li class="px-3"><a href="/Howitworks.html"> Terms  </a></li>
+              <li class="px-3"><a href="/terms and conditions.html"> Terms  </a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-9 col-8 d-flex align-items-center justify-content-end">
@@ -72,9 +72,9 @@
       </div>
       <ul class="responsivemenu">
         <li class="px-3"><a href="/Howitworks.html"> how it works </a></li>
-        <li class="px-3"><a href="#">  FAQ  </a></li>
+        <li class="px-3"><a href="./FAQs.html">  FAQ  </a></li>
         <li class="px-3"><a href="/privacypolicy.html">  Your Privacy Rights  </a></li>
-        <li class="px-3"><a href="/Howitworks.html"> Terms  </a></li>
+        <li class="px-3"><a href="/terms and conditions.html"> Terms  </a></li>
       </ul>
     </div>
 
@@ -211,21 +211,22 @@
           <div class="col-md-8 col-12 d-md-flex justify-content-sm-end align-items-sm-center">
             <div class="btnwraps">
               <div class="formsect">
-                <form
-                  action="/action_page.php"
-                  class="d-flex justify-content-sm-end align-items-sm-end"
+                <form 
+                class="d-flex justify-content-sm-end align-items-sm-end"
+              >
+                <select
+                  class="form-select" id="amount"
+                  aria-label="Default select example"
                 >
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>$2500-$5000</option>
-                    <option value="1">$2000</option>
-                    <option value="2">$3000</option>
-                    <option value="3">$4000</option>
-                  </select>
-                  <input type="submit" value="Continue" />
-                </form>
+                  <option selected>$2500-$5000</option>
+                  <option value="1">$2000</option>
+                  <option value="2">$3000</option>
+                  <option value="3">$4000</option>
+                </select>
+                <input type="email" placeholder="Email*" required id="diemail">
+                <button class="btnforme">Continue</button>
+                <input type="submit" value="&rarr;" id="submitbtn"/>
+              </form>
               </div>
             </div>
           </div>
