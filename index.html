@@ -12,12 +12,13 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <title>FlexLoans</title>
   </head>
   <body>
     <header>
@@ -94,19 +95,24 @@
                 Our lender partners can provide you with the loans you need up
                 to $5,000!
               </p>
-              <div class="formsect">
-                <form action="/action_page.php" class="d-sm-flex">
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>$1000</option>
-                    <option value="1">$2000</option>
-                    <option value="2">$3000</option>
-                    <option value="3">$4000</option>
-                  </select>
-                  <input type="submit" value="Continue" />
-                </form>
+              <div class="formsect" id="herosecct">
+                <form
+                action="/action_page.php"
+                class="d-flex justify-content-sm-start  align-items-sm-end"
+              >
+                <select
+                  class="form-select" id="amount"
+                  aria-label="Default select example"
+                >
+                  <option selected>$2500-$5000</option>
+                  <option value="1">$2000</option>
+                  <option value="2">$3000</option>
+                  <option value="3">$4000</option>
+                </select>
+                <input type="email" placeholder="Email*" required id="email">
+                <button class="btnforme">Continue</button>
+                <input type="submit" value="&rarr;" id="submitbtn"/>
+              </form>
               </div>
             </div>
           </div>
@@ -253,20 +259,22 @@
             <div class="btnwraps">
               <div class="formsect">
                 <form
-                  action="/action_page.php"
-                  class="d-flex justify-content-end"
+                action="/action_page.php"
+                class="d-flex justify-content-sm-end align-items-sm-end"
+              >
+                <select
+                  class="form-select" id="amount"
+                  aria-label="Default select example"
                 >
-                  <select
-                    class="form-select"
-                    aria-label="Default select example"
-                  >
-                    <option selected>$2500-$5000</option>
-                    <option value="1">$2000</option>
-                    <option value="2">$3000</option>
-                    <option value="3">$4000</option>
-                  </select>
-                  <input type="submit" value="Continue" />
-                </form>
+                  <option selected>$2500-$5000</option>
+                  <option value="1">$2000</option>
+                  <option value="2">$3000</option>
+                  <option value="3">$4000</option>
+                </select>
+                <input type="email" placeholder="Email*" required id="email">
+                <button class="btnforme">Continue</button>
+                <input type="submit" value="&rarr;" id="submitbtn"/>
+              </form>
               </div>
             </div>
           </div>
@@ -299,20 +307,22 @@
           <div class="btnwraps">
             <div class="formsect">
               <form
-                action="/action_page.php"
-                class="d-flex justify-content-end"
+              action="/action_page.php"
+              class="d-flex justify-content-sm-end align-items-sm-end"
+            >
+              <select
+                class="form-select" id="amount"
+                aria-label="Default select example"
               >
-                <select
-                  class="form-select"
-                  aria-label="Default select example"
-                >
-                  <option selected>$2500-$5000</option>
-                  <option value="1">$2000</option>
-                  <option value="2">$3000</option>
-                  <option value="3">$4000</option>
-                </select>
-                <input type="submit" value="Continue" />
-              </form>
+                <option selected>$2500-$5000</option>
+                <option value="1">$2000</option>
+                <option value="2">$3000</option>
+                <option value="3">$4000</option>
+              </select>
+              <input type="email" placeholder="Email*" required id="email">
+              <button class="btnforme">Continue</button>
+              <input type="submit" value="&rarr;" id="submitbtn"/>
+            </form>
             </div>
           </div>
         </div>

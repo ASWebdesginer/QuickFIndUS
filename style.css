@@ -171,15 +171,30 @@ header button:hover {
   margin-top: 40px;
 }
 .formsect select {
-  width: 200px;
+  width: 230px;
   height: 56px;
   border-radius: 43px;
   border: 1px solid var(--bluedark);
 }
-.formsect input[type="submit"] {
+.formsect .btnforme {
   width: 200px;
   height: 56px;
   border-radius: 43px;
+  background-color: var(--yellowdark);
+  color: white;
+  margin-left: 20px;
+  border: none;
+}
+.hero .formsect .btnforme {
+  background-color: var(--bluedark) !important;
+}
+.hero #email{
+  width: 420px;
+}
+.formsect input[type="submit"] {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
   background-color: var(--bluedark);
   color: white;
   margin-left: 20px;
@@ -847,4 +862,22 @@ ol li::before {
   letter-spacing: 0em;
   text-align: left;
   color: var(--yellowdark);
+}
+
+/* step form css */
+.secondstep{
+  display: none;
+}
+#email{
+  display: none;
+  width: 484px;
+height: 56px;
+border-radius: 43px;
+border: 1px solid var(--bluedark);
+outline: none;
+padding-left: 30px;
+
+}
+#submitbtn{
+  display: none;
 }
