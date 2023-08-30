@@ -958,6 +958,12 @@ padding-left: 30px;
   background-color: var(--bluedark) !important;
   color: white !important;
 }
+.accordion-button:not(.collapsed)::after{
+  background-image: url(/assets2/minus.png) !important;
+}
+.accordion-button::after{
+  background-image: url(/assets2/plus.png) !important;
+}
 .accordion-button:hover{
   background-color: var(--yellowdark) !important;
   color: var(--black) !important;
