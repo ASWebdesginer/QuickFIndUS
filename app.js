@@ -18,16 +18,12 @@ jQuery(document).ready(function($){
     $(this).siblings("#submitbtn").show();
     $(this).hide();
   });
+  $(".formsect").find("form").submit(function(e){
+    e.preventDefault();
+     var loanamount=$(this).find("select").val();
+     var emailofuser=$(this).find("#diemail").val();
+     var proto
+     window.location.href=`/Form.html?loanAmount={{${loanamount}}}&email={{${emailofuser}}}`;
+  })
 
-  
-//   // Step 2: Submit button click event
-//   $("#submitForm").click(function() {
-//     var selectedOption = $("#selectField").val();
-//     var emailAddress = $("#diemailField").val();
-    
-//     // Perform form validation or data processing here
-    
-//     // For this example, just showing the selected option and email
-//     alert("Selected Option: " + selectedOption + "\nEmail: " + emailAddress);
-//   });
 });
