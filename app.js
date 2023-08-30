@@ -22,7 +22,6 @@ jQuery(document).ready(function($){
     e.preventDefault();
      var loanamount=$(this).find("select").val();
      var emailofuser=$(this).find("#diemail").val();
-     var proto
      window.location.href=`/Form.html?loanAmount={{${loanamount}}}&email={{${emailofuser}}}`;
   })
 
